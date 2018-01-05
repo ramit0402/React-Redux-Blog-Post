@@ -13,8 +13,8 @@ class PostsNew extends Component {
         this.props.createPost(props)
             .then(() => {
                 // blog has been created,  navigate the user to the index
-                //we navigate by calling this.context.router.push with the new path to navigate
-                this.context.router.push("/")
+                // we navigate by calling this.context.router.push with the new path to navigate
+                this.context.router.push("/");
             });
     }
 
